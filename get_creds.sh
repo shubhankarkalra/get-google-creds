@@ -7,7 +7,7 @@ get_google_credentials() {
 
     # Check if terraform.tfvars exists
     if [ -f "$credentials_file" ]; then
-        # Extract the GOOGLE_CREDENTIALS value from the file
+        # Extract the value for gcp_sa_credentials_file
         google_credentials=$(grep -oP 'gcp_sa_credentials_file\s*=\s*"\K[^"]+\.json' "$credentials_file")
 
         # Check if the file exists
