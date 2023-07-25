@@ -9,7 +9,7 @@ Ensure to give execute permissions to the script using the command chmod +x expo
 
 NOTE: If the script doesn't export the ENV. Try Using the source command- Instead of executing the script as a separate process, you can use the source or . command to run the script in the current shell. This way, any environment variable modifications made by the script will take effect in your current session.
 
-Usage: ./get_creds.sh <file-path> 
+Usage:  ./get_creds.sh  <file-path> 
 
 
 
