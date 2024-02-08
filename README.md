@@ -11,5 +11,6 @@ NOTE: If the script doesn't export the ENV. Try Using the source command- Instea
 
 Usage:  ./get_creds.sh  <file-path> 
 
+++Update
 
 
